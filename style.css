@@ -1,0 +1,75 @@
+.navbar-toggler {
+    font-size: 1.25rem;
+}
+
+.navbar-toggler ion-icon {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.topmargin-lg {
+    margin-top: 3.75rem !important;
+}
+
+.topmargin-sm {
+    margin-top: 1.25rem !important;
+}
+
+.content-center {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.content-center2 {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.nosotras-container {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.nosotras-details {
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.member-container {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.member-details p {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.redes img {
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+
+.redes img:hover {
+    transform: scale(1.1);
+}
+
+.footer.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.footer.menu a:hover {
+    text-decoration: underline;
+}
