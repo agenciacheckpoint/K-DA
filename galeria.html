@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galería // Walpapers</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <header>
+    <img src="images/KDA_Logo.png" alt="K/DA Logo" class="logo">
+    <button class="abrir-menu" id="abrir"><i class="bi bi-list"></i></button>
+    <nav class="nav" id="nav">
+      <Button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></Button>
+      <ul class="nav-list">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="video.html">Videos Musicales</a></li>
+        <li><a href="chicas.html">Las chicas</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="index.html#social">Redes</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="galeria-cont">
+    <div class="section-divider"></div>
+    <h1 class="titulo-galeria">GALERÍA // FONDOS DE PANTALLA</h1>
+    <div class="section-divider"></div>
+    <div class="imagen-principal">
+      <img src="./images/gallery-images/1.jpg" alt="" id="mainImage">
+    </div>
+
+    <div class="progress-bar">
+      <div class="progress-fill"></div>
+    </div>
+
+    <div class="carousel-cont">
+      <button id="prevBtn" class="nav-btn">&#10094;</button>
+
+      <div class="miniaturas-wrapper">
+        <div class="miniaturas" id="miniaturasList">
+          <img src="./images/gallery-images/1.jpg" alt="" data-index="0" class="active">
+          <img src="./images/gallery-images/2.jpg" alt="" data-index="1">
+          <img src="./images/gallery-images/3.jpg" alt="" data-index="2">
+          <img src="./images/gallery-images/4.jpg" alt="" data-index="3">
+          <img src="./images/gallery-images/5.jpg" alt="" data-index="4">
+          <img src="./images/gallery-images/6.jpg" alt="" data-index="5">
+          <img src="./images/gallery-images/7.jpg" alt="" data-index="6">
+          <img src="./images/gallery-images/8.jpg" alt="" data-index="7">
+          <img src="./images/gallery-images/9.jpg" alt="" data-index="8">
+          <img src="./images/gallery-images/10.jpg" alt="" data-index="9">
+          <img src="./images/gallery-images/11.jpg" alt="" data-index="10">
+          <img src="./images/gallery-images/12.jpg" alt="" data-index="11">
+          <img src="./images/gallery-images/13.jpg" alt="" data-index="12">
+          <img src="./images/gallery-images/14.jpg" alt="" data-index="13">
+          <img src="./images/gallery-images/15.jpg" alt="" data-index="14">
+          <img src="./images/gallery-images/16.jpg" alt="" data-index="15">
+          <img src="./images/gallery-images/17.jpg" alt="" data-index="16">
+          <img src="./images/gallery-images/18.jpg" alt="" data-index="17">
+        </div>
+      </div>
+      
+      <button id="nextBtn" class="nav-btn">&#10095;</button>
+    </div>
+  </main>
+  
+  <script src="./js/gallery.js"></script>
+</body>
+<footer id="footer" class="foot">
+     <div class="container">
+         </ul>
+         <ul class="redes-riot">
+             <li><a href="https://www.youtube.com/user/RiotGamesLatino" target="_blank"><i class="bi bi-youtube"></i></a></li>
+             <li><a href="https://twitter.com/lollatam" target="_blank"><i class="bi bi-twitter-x"></i></a></li>
+             <li><a href="https://www.facebook.com/LeagueofLegendsLatino" target="_blank"><i class="bi bi-facebook"></i></a></li>
+             <li><a href="https://www.instagram.com/juegalol/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+             <li><a href="https://www.reddit.com/r/leagueoflegends/" target="_blank"><i class="bi bi-reddit"></i></a></li>
+         </ul>
+         <a href="https://www.riotgames.com/es" target="_blank"><img src="images/riot_logo.png" class="logo-brand" alt="logo" height="90"></a>
+         <p>
+          <br>
+         </p>
+         <div class="copyright">™ & © 2025 Riot Games Inc. Todos los derechos reservados. Riot Games, League of Legends y PvP.net son marcas comerciales, marcas de servicios o marcas registradas de Riot Games, Inc.
+         </div>
+     </div>
+</footer>
+</html>
