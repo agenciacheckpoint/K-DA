@@ -238,6 +238,10 @@
       text-align: justify;
     }
 
+    .gallerycont .galleryimg {
+      width: 60%;
+    }
+
     .galleryimg{
       padding-bottom: 2rem;
     }
@@ -434,8 +438,8 @@
             width: 100%;
         }
 
-        .galleryimg{
-            width: 100%;
+        .gallerycont .galleryimg {
+          width: 100%;
         }
         .logo-brand{
           width: 50%;
