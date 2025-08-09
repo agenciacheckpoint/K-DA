@@ -220,8 +220,9 @@
         aspect-ratio: 16 / 9;
         width: 80%;
     }
-    .seracont {
-      padding: 100px 5% 5%;
+
+    .seracont{
+      padding-top: 100px;
     }
     .seraphine{
       text-align: center;
@@ -231,11 +232,6 @@
     .seraphine-img{
       width: 70%;
       transition: .3s ease;
-    }
-
-    .seraphine p{
-      padding: 10% 15%;
-      text-align: justify;
     }
 
     .gallerycont .galleryimg {
@@ -281,7 +277,16 @@
       font-weight: bold;
       color: rgb(218, 218, 218);
       text-transform: uppercase;
-      padding: 5% 10% 0;
+      padding: 5% 17% 0;
+    }
+
+    .descripcion{
+      font-size: 1.5em;
+      padding: 0 20% 0 ;
+      text-align: justify;
+    }
+    .seracont .descripcion{
+      padding: 5% 20% ;
     }
 
     .titulo-galeria{
@@ -455,8 +460,12 @@
         .gallerycont {
           padding: 0;
         }
-        .seracont{
-          padding: 0;
+        .descripcion{
+          font-size: 1.7em;
+          padding: 5%;
+        }
+        .seracont .descripcion{
+          padding: 5%;
         }
         .galeria-cont{
           padding: 100px 5% 5%;
